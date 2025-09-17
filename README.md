@@ -4,23 +4,9 @@
 
 <h2>Objective</h2>
 <p>
-The goal of this project was to analyse a simulated food delivery dataset for a fictional launch by <strong>Noon Food</strong> in Dubai. The analysis aimed to uncover customer behaviour, acquisition patterns, promotional impact, and performance of food outlets through a series of real-world SQL business questions.
+This project analysed a simulated food delivery dataset for <strong>Noon Food’s</strong> fictional launch in Dubai (January–March 2025). The dataset, designed to mirror realistic order journeys, promotions, and restaurant activity, was used to explore key business questions in SQL, covering customer behaviour, acquisition trends, promo effectiveness, and outlet performance. The goal was to demonstrate practical, real-world analytics skills through case-study style insights.
 </p>
 
-<h3>Context</h3>
-<p>
-This project simulates the launch of a new vertical by Noon Food on <strong>January 1st, 2025</strong>, capturing order data over a 3-month period. The dataset was manually crafted to reflect realistic user journeys, promotional campaigns, and ordering patterns. It was designed to reflect real-time use cases common in food delivery and consumer analytics scenarios.
-</p>
-
-<h3>Duration</h3>
-<p>
-~3 days to build and validate the dataset, followed by in-depth SQL problem solving and insights generation over the course of several sessions.
-</p>
-
-<h3>Role</h3>
-<p>
-As the sole contributor, I handled everything from data generation to SQL-based problem solving and insights storytelling. The project mimics the responsibilities of a data analyst in a consumer tech company, answering stakeholder-driven business questions.
-</p>
 
 <h3>Tools and Methodologies</h3>
 
@@ -96,11 +82,8 @@ Edge cases (null promo codes, repeat orders, multi-cuisine restaurants) were int
 <li>Identified a pattern of <strong>churned users</strong> post a single order, critical for re-engagement campaigns.</li> 
 <li>Pinpointed high-performing restaurants by cuisine type for focused growth strategies.</li> </ul> 
 
-<h3>Reflections</h3> 
-<p> This project challenged my ability to break down layered stakeholder requirements and convert them into precise SQL logic. Handling temporal logic (first-order, last-order, promo dependency) was a key part of the challenge. </p> 
 
 <h3>Next Steps</h3> <ul> <li>Build a dashboard version of this in Tableau or Power BI.</li>
 <li>Extend analysis to <strong>customer lifetime value</strong>, <strong>churn prediction</strong>, and <strong>promo ROI</strong>.</li> 
 <li>Integrate external datasets like <strong>restaurant ratings</strong> or <strong>delivery times</strong> to enhance depth.</li> </ul> 
 
-<h3>Conclusion</h3> <p> This project showcased real-world SQL applications in consumer analytics, demonstrating how raw order data can drive meaningful strategic decisions for product, marketing, and growth teams. </p>
