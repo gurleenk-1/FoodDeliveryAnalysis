@@ -25,9 +25,15 @@ A custom dataset was built representing food orders from January to March 2025. 
 </p>
 
 - `order_id`, `customer_code`, `placed_at`, `restaurant_id`, `cuisine`, `order_status`, `promo_code_name`
+  <p align="center">
+  <img src="Images/p1.png" alt="Data Preparation Reference" width="500"/><br>
+  <em>Figure 1: Data Preparation Reference</em>
+</p>
+
 
 <p>
 Edge cases (null promo codes, repeat orders, multi-cuisine restaurants) were intentionally included to ensure robust logic testing.
+
 </p>
 
 ---
