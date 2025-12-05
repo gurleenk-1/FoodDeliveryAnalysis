@@ -150,18 +150,18 @@ WHERE latest_order_date < DATEADD(DAY, -7, GETDATE())
 --5) Growth team is planning to create a trigger that will target customers after their every
 --   third order with a personalized communication and they have asked you to create a query for this.
 
-WITH cte AS (
-    SELECT *,
-           ROW_NUMBER() OVER (
-               PARTITION BY customer_code 
-               ORDER BY placed_at
-           ) AS order_number
+ WITH cte AS (
+    SELECT  *,
+            ROW_NUMBER() OVER (
+                PARTITION BY customer_code
+                ORDER BY placed_at
+            ) AS order_number
     FROM orders
 )
 SELECT *
 FROM cte
-WHERE order_number%3 = 0 
-  AND CAST(placed_at AS date) = CAST(GETDATE() AS date);
+WHERE order_number % 3 = 0
+  AND CAST(placed_at AS date) = '2025-03-31';
 
 
 --6) list customers who placed more than 1 order and all their orders on a promo only
